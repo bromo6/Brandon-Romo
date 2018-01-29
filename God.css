@@ -46,7 +46,7 @@ h3, h5, h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  z-index: 100;
+  top: 0;
 
 }
 
@@ -70,8 +70,8 @@ h3, h5, h1 {
   height: 500px;
   z-index: 100;
 }
-h1, h3, {
-  margin-top: 50px;
+h3 {
+  margin-top: 20px;
   color: #0027a0;
 }
 h2, p {
@@ -80,7 +80,7 @@ h2, p {
 }
 .blue1 {
   margin: 20px;
-  margin-top: 30px;
+  margin-top: 5px;
   color: #0027a0;
 }
 .icon {
@@ -121,7 +121,7 @@ h2, p {
   position: absolute;
   bottom: 40px;
   left: 50%;
-  color: black;
+  color: white;
 }
   .floating {
     animation-name: floating;
