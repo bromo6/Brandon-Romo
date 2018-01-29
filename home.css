@@ -1,0 +1,30 @@
+.bio, span {
+  color: grey;
+  font-size: 15px;
+}
+.nav-item:hover {
+  border-bottom: 3px solid rgb(0, 64, 255);
+}
+.body1 {
+  background: #0a0a0a;
+}
+i {
+  color:#666;
+  margin-top: 10px;
+}
+
+.first, .two, .three {
+  color: white;
+}
+h3, h5, h1 {
+  margin-top: 15px;
+  color: white;
+}
+.blue {
+  color: white;
+  margin-bottom: 30px;
+}
+.job {
+  color: grey;
+  font-size: 15px;
+}

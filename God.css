@@ -1,0 +1,137 @@
+body {
+  background: rgb(40, 41, 42);
+}
+.bio, span {
+  color: grey;
+  font-size: 15px;
+}
+.nav-item:hover {
+  border-bottom: 3px solid rgb(0, 64, 255);
+}
+.body1 {
+  background: #0a0a0a;
+}
+.blue {
+  color:#666;
+  margin-top: 10px;
+}
+
+.first, .two, .three {
+  color: white;
+}
+h3, h5, h1 {
+  margin-top: 15px;
+  color: white;
+}
+.blue {
+  color: white;
+  margin-bottom: 30px;
+}
+.job {
+  color: grey;
+  font-size: 15px;
+}
+#name {
+  color: #000000;
+}
+.mini1:hover, .mini3:hover, .mini4:hover, .left1:hover{
+  border: 2px solid black;
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 100;
+
+}
+
+.container-fluid {
+  position: absolute;
+  z-index: 80;
+}
+
+#particles-js canvas{
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+
+.big1 {
+  margin-top: 150px;
+  text-align: center;
+  background: grey;
+  height: 500px;
+  z-index: 100;
+}
+h1, h3, {
+  margin-top: 50px;
+  color: #0027a0;
+}
+h2, p {
+  color: #0027a0;
+  margin-top: 30px;
+}
+.blue1 {
+  margin: 20px;
+  margin-top: 30px;
+  color: #0027a0;
+}
+.icon {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.left1 {
+  padding: 50px;
+  background-image: url("selfie.jpg");
+  background-size: cover;
+}
+.mini1 {
+  background-image: url("computer.jpg");
+  background-size: cover;
+  color: #313131;
+  height: 33.3%;
+}
+
+.mini3 {
+  background-image: url("city.jpeg");
+  background-size: contain;
+  color: #313131;
+  height: 33.3%;
+}
+.mini4 {
+  background-image: url("microphone.jpg");
+  background-size: cover;
+  color: #313131;
+  height: 33.3%;
+}
+#carousel {
+  position: relative;
+  background-image: url("Earth-Moon.jpg");
+  background-size: cover;
+  height: 500px;
+}
+.arrow {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  color: black;
+}
+  .floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, 0px); }
+}
